@@ -1,1 +1,94 @@
 /* your code here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.content {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo_name {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.media-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.media-icons a {
+    background: #222;
+    padding: 12px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.media-icons a:hover {
+    background: #f00;
+}
+
+.link-boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.box {
+    list-style: none;
+    min-width: 180px;
+}
+
+.link_name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    text-decoration: underline;
+}
+
+.box li {
+    margin-bottom: 8px;
+}
+
+.box a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.bottom-details {
+    background: #222;
+    margin-top: 20px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bottom-details a {
+    color: #fff;
+    text-decoration: none;
+}
